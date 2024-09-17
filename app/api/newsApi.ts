@@ -1,7 +1,7 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const API_KEY = "YOUR_API_KEY";
+const API_KEY = "398b80eb952943ef8f7eec87a311de27";
 const API_URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
 
 export interface NewsItem {
